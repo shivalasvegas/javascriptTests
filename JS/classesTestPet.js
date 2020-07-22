@@ -19,3 +19,8 @@ class Pet {
       console.log(`${this._name} says hello`);
     }
   }
+
+  let dog = new Pet("Bob", true);
+  dog.hungry();
+
+  
